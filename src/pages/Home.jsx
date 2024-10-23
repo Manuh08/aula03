@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Listarprodutos from '../Listarprodutos'
 
 export default function Home() {
 
@@ -20,17 +21,8 @@ export default function Home() {
 
     return (
         <>
-        <h1>Lista de Produtos</h1>
-        <ul>
-            {produtos.map(produto => (
-                <li key={produto.id}>
-                    <h2>{produto.title}</h2>
-                    <h2>{produto.descrition}</h2>
-                    <p>{produto.category}</p>
-                    <img src={produto.image} alt={produto.title} width={100}/>
-                </li>
-            ))}
-        </ul>
+        <Listarprodutos produtos={lista}/>
+        
         </>
     );
 }
