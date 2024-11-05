@@ -5,7 +5,7 @@ export default function Listarprodutos({produtos}) {
     return(
         <>
         <main>
-        <h1 className={style.produto}>Lista de Produtos</h1>
+        <h1 className={style.produto}>Shopping China</h1>
         <div className={style.home}>
             {produtos.map(produto => (
                 <div className={style.card}>
