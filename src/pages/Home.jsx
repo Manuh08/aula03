@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Listarprodutos from '../Listarprodutos'
 
+
+
 export default function Home() {
 
     const [ lista, setLista] = useState([]);
@@ -21,8 +23,9 @@ export default function Home() {
 
     return (
         <>
+
         <Listarprodutos produtos={lista}/>
-        
+
         </>
     );
 }
