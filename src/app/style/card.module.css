@@ -38,3 +38,9 @@ h1 {
   font-weight: bold;
   line-height: 1.1;
 }
+.botao{
+ margin: 1000px
+}
+body{
+    background-color:rgb(238, 193, 244);
+}
