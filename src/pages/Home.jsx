@@ -64,7 +64,7 @@ export default function Home() {
     return (
         <>
          <div className="botao">
-            <button className="botao" onClick={orderAz}>Az</button>
+            <button onClick={orderAz}>Az</button>
         </div>
         <div className="botao">
             <button onClick={orderZa}>Za</button>
